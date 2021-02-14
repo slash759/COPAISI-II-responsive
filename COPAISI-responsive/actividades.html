@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Actividades</title>
+    <script src="https://kit.fontawesome.com/f8d3066f8c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f8d3066f8c.js" crossorigin="anonymous"></script>
+
+    <style>
+        #fondo
+        {
+            background: rgb(255,255,255);
+            background: linear-gradient(138deg, rgba(255,255,255,1) 0%, rgba(185,169,169,1) 100%);  
+        }
+        .inv
+        {
+            width: 1px;
+        }
+        #footer
+        {
+            display: block;
+            background: linear-gradient(880deg,#29100A, white);
+            width: 100%;
+            text-align: center;
+        }
+        #text-footer
+        {
+            color: white;
+            font-family: cursive;
+        }
+        #facebook
+        {
+            font-size: 25px;
+            color: white;
+            text-shadow: 3px 1px 2px rgba(0, 0, 0, 1);
+        }
+        #fab 
+        {
+            color: #3b5998;
+            font-size: 30px;
+            line-height: 10px;
+        }
+        #fab i 
+        {
+            background-color: white;
+            font-size: 40px;
+            padding-right: 35px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 30px;
+            height: 32px;
+            text-align: center;
+            line-height: 10px;
+            border-radius: 10%;
+        }
+        h2
+    {
+        display: inline-block;
+        position: relative;
+        font-family: cursive;
+    }
+    h2::after,h2::before
+    {
+        content:'';
+        position: absolute;
+        width: 120px;
+        height: 3px;
+        background-color: currentColor;
+        top: 0.6em;
+    }
+    h2::before
+    {
+        left: -140px;
+    }
+    h2::after
+    {
+        right: -140px;
+    }
+        #titulo
+        {
+            text-decoration: underline #27ADAD;
+            border: double 8px #27ADAD;
+            margin-bottom: 50px;
+            border-radius: 30px;
+        }
+        #tab
+        {
+            max-width: 85%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .vert
+        {
+            vertical-align: middle;
+        }
+        #active
+        {
+            background-color: #5DA8A8;
+        }
+        tr:hover td
+        {
+        background-color: white;
+        color: black;
+        }
+        .table-active:hover td
+        {
+            background-color: white;
+            color: black;
+        }
+        .card
+        {
+            max-width: auto;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        </style>
+</head>
+<body id="fondo">
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="logo.png" alt="COPAISI II LOGO" width="250" >
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="ejm3">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" aria-current="page" href="index.html"><span>Presentación</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="ponentes.html">Ponentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="cronograma.html">Cronograma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="actividades.html">Actividades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="inscripción.html">Inscripción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="programa.html">Programa</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </nav>
+    
+    <!-- titulo -->
+    <div class="container-sm p-5">
+        <div class="row pt-5">
+            <h3 id="titulo" class="text-center pb-5 pt-5 h1">Actividades</h3>
+        </div>
+    </div>
+    <!-- contenido -->
+    <div  class="text-center">
+        <img  src="./img/trab_inv.png" class="img-fluid" alt="">
+    </div>
+    <hr class="inv">
+    <hr class="inv">
+    <div class="card text-center text-white bg-dark mb-3" >
+        <div class="card-body">
+            <h2 class="card-title">Envío De Trabajos</h2>
+            <p class="card-text"><hr>Los trabajos pueden ser escritos tanto en español como en inglés o portugués, 
+                                        estos serán revisados por un comité designado por el COPAISI. 
+                                        Las sumisiones deberán realizarse a través del siguiente link:  
+                                        <button type="button" class="btn btn-info btn-sm">Link</button>
+            </p>
+        </div>
+    </div>
+    
+    <div class="card text-center text-white bg-dark mb-3" >
+        <div class="card-body">
+            <h2 class="card-title">Formato Para Envío de Trabajos</h2>
+            <p class="card-text"><hr>Los trabajos deberán ser enviados en PDF, adjuntando su archivo original, según formato que puede ser obtenido en el link:   
+                                        <button type="button" class="btn btn-info btn-sm">Link</button>
+            </p>
+        </div>
+    </div>
+    
+    <div class="card text-center text-white bg-dark mb-3" >
+        <div class="card-body">
+            <h2 class="card-title">Presentación de Trabajos</h2>
+            <p class="card-text"><hr>
+                
+                    <strong>- </strong> Los trabajos de investigación aceptados en el congreso tendrán 20 minutos para su presentación oral y 5 minutos para responder a preguntas de los participantes.</li>
+                    <br>
+                    <strong>- </strong> Los trabajos deberán estar dentro de las temáticas propuestas en el evento (Inteligencia Artificial, Ingeniería del Software y áreas afines a la Ingeniería de sistemas e Informática)</li>
+                
+            </p>
+        </div>
+    </div>
+    <hr class="inv">
+    <div  class="text-center">
+        <img  src="./img/conc_prog.png" class="img-fluid" alt="">
+    </div>
+    <hr class="inv">
+    <hr class="inv">
+    <div class="card text-center text-white bg-dark mb-3" >
+        <div class="card-body">
+            <h2 class="card-title">Concurso de Programación</h2>
+            <p class="card-text"><hr>
+                Todos los que deseen inscribirse al concurso de programación pueden inscribirse en el siguiente enlace:    
+                                        <button type="button" class="btn btn-info btn-sm">Link</button> 
+            </p>
+        </div>
+    </div>
+    <hr class="inv">
+    <!-- footer -->
+    <div id="footer">
+        <div id="imgfinal">
+            <img src="./img/congreso2.png" alt="Logo COPAISI">
+        </div>
+    
+        <div id="facebook">
+            Sigue el fanpage del COPAISI en 
+            <a id="fab" href="https://www.facebook.com/COPAISI"><i class="fab fa-facebook-square"></i></i></i></a> 
+        </div>
+        <div id="text-footer">
+            Copyright © 2021 Universidad Nacional del Altiplano | All Rights Reserved
+        </div>
+    </div>
+    
+    <!-- Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+</body>

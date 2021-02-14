@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ponentes</title>
+    <script src="https://kit.fontawesome.com/f8d3066f8c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f8d3066f8c.js" crossorigin="anonymous"></script>
+
+    <style>
+        #fondo
+        {
+            background: rgb(255,255,255);
+            background: linear-gradient(138deg, rgba(255,255,255,1) 0%, rgba(185,169,169,1) 100%);  
+        }
+        h2
+        {
+            display: inline-block;
+            position: relative;
+            font-family: cursive;
+        }
+        h2::after,h2::before
+        {
+            content:'';
+            position: absolute;
+            width: 120px;
+            height: 3px;
+            background-color: currentColor;
+            top: 0.6em;
+        }
+        h2::before
+        {
+            left: -140px;
+        }
+        h2::after
+        {
+            right: -140px;
+        }
+        .inv
+        {
+            width: 1px;
+        }
+        #footer
+        {
+            display: block;
+            background: linear-gradient(880deg,#29100A, white);
+            width: 100%;
+            text-align: center;
+        }
+        #text-footer
+        {
+            color: white;
+            font-family: cursive;
+        }
+        #facebook
+        {
+            font-size: 25px;
+            color: white;
+            text-shadow: 3px 1px 2px rgba(0, 0, 0, 1);
+        }
+        #fab 
+        {
+            color: #3b5998;
+            font-size: 30px;
+            line-height: 10px;
+        }
+        #fab i 
+        {
+            background-color: white;
+            font-size: 40px;
+            padding-right: 35px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 30px;
+            height: 32px;
+            text-align: center;
+            line-height: 10px;
+            border-radius: 10%;
+        }
+        #titulo
+        {
+            text-decoration: underline #27ADAD;
+            border: double 8px #27ADAD;
+            margin-bottom: 50px;
+            border-radius: 30px;
+        }
+        .card-border
+        {
+            border: solid 5px #302E3A;
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all ease-out 0.2s;
+            max-width: 370px;
+            min-height: auto;
+            
+        }
+        .card-border:hover
+        {
+            transform: scale(1.05);
+        }
+        .card-img-top
+        {
+            max-height: 300px;
+            border-radius: 10px;
+        }
+        .band
+        {
+            max-height: 50px;
+            max-width: 50px;
+            border-bottom: solid black;
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+            padding-top: 10px;
+            margin-bottom: -8px;
+        }
+        h5
+        {
+            border-top: double slategrey;
+            border-bottom: double slategrey;
+        }
+        .lin
+        {
+            border-top: double slategrey;
+        }
+        #fil-12
+        {
+            min-height: 96px;
+        }
+        #fil-13
+        {
+            min-height: 96px;
+        }
+        #fil-41
+        {
+            min-height: 97px;
+        }
+        #fil-42
+        {
+            min-height: 97px;
+        }
+        #fil-51
+        {
+            min-height: 49px;
+        }
+        #fil-53
+        {
+            min-height: 49px;
+        }
+        #fil-61
+        {
+            min-height: 55px;
+        }
+    </style>
+</head>
+<body id="fondo">
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="logo.png" alt="COPAISI II LOGO" width="250" >
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="ejm3">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" aria-current="page" href="index.html"><span>Presentación</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="ponentes.html">Ponentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="cronograma.html">Cronograma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="actividades.html">Actividades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="inscripción.html">Inscripción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="programa.html">Programa</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </nav>
+    
+    <!-- Ponentes -->
+    <div id="ponentes">
+        <div class="container-sm p-5">
+            <div class="row pt-5">
+                <h3 id="titulo" class="text-center pb-5 pt-5 h1">Ponentes</h3>
+            </div>
+            <!-- primera fila -->
+            <div class="row">
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/alain.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/per2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Alain Alejo Huarachi</h5>
+                            <p class="card-text text-center">Ing. de Sistemas (UNA Puno)<br>
+                                <strong> Maestro en Ciencias:</strong> Ingeniería de Sistemas (UNSA Arequipa)
+                                <br>PhD Student at PUCP <br>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#alain" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="alain" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"> <strong> Descripción:</strong> Ingeniero de Sistemas especialista en Tecnologías de la Información para la Infraestructura de Llave Pública (PKI) del Estado Peruano (RENIEC), he desarrollado software para la entrega de certificados digitales para el DNI electrónico y otros dispositivos criptográficos, también he colaborado con el soporte tecnológico para el despliegue de software de firma digital y autenticación electrónica.
+                                                <br><strong> Área de Interés: </strong>Desarrollo de Software, Inteligencia Artificial.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/celeste.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/arg2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Celeste Morales</h5>
+                            <p id="fil-12" class="card-text text-center">Magíster en derecho penal<br>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#celeste" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="celeste" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"><strong> Descripción: </strong>Magíster en derecho penal por la Universidad Austral de Bs As., Abogada (UNC). Docente de la asignatura de derecho informático de la Licenciatura de Análisis de Sistema (DIUNSa)
+                                                <br><strong> Área de Interés: </strong>Derecho informático.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/claudia.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/arg2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Claudia Ibarra</h5>
+                            <p id="fil-13" class="card-text text-center">Magister en Informática (UNSTa)<br>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#claudia">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="claudia" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"><strong> Descripción: </strong>Magister en Informática (UNSTa) y Licenciada en Análisis de Sistemas (UNSa). Es docente de asignaturas de la Licenciatura en Análisis de Sistemas (DIUNSa) y del Profesorado en Matemática relacionadas con la programación.
+                                                <br><strong> Área de Interés: </strong>Análisis de sistemas, matemáticas relacionadas a programación.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- segunda fila -->
+            <div class="row">
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/cristian.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/arg2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Cristian Martinez</h5>
+                            <p class="card-text text-center">Dr. Ciencias de la Computación<br>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"> <strong> Descripción:</strong> Especialista en Docencia Universitaria (UNSa) y Licenciado en Análisis de Sistemas (UNSa). Es docente de asignaturas de la Licenciatura en Análisis de Sistemas (DIUNSa) relacionadas con Investigación Operativa, Minería de Datos, Desarrollo Móvil y Desarrollo en Python. Dirige proyectos de investigación con temáticas relacionadas con Optimización, Minería de Datos, Programación, Visión por Computadora y Procesamiento de Imágenes.
+                                            <br><strong> Área de Interés: </strong>Optimización, Minería de Datos.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/eduardo.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/arg2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Eduardo Xamena</h5>
+                            <p class="card-text text-center">Doctor en Ciencias de la Computación<br>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eduardo" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="eduardo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"><strong> Descripción: </strong>Investigador del CONICET y Docente Universitario. Desarrolló su Doctorado en temas relacionados a la Recuperación de Información y a la Ingeniería. En la actualidad lleva a cabo diversas investigaciones en temáticas que involucran Machine Learning, Procesamiento del Lenguaje Natural y Minería de Datos. El objetivo de estos estudios es la extracción de información relevante en los campos de la Historia Argentina y los grandes volúmenes de información de la Justicia Provincial. Como parte de las investigaciones científicas en estas áreas, conduce trabajos sobre la extracción automatizada de textos manuscritos históricos en condiciones de deterioro y la recuperación de información sobre grandes volúmenes de textos digitales originados en el ámbito de la Justicia. También realiza investigaciones sobre el procesamiento de digitalizaciones OCR para la corrección de textos mediante modelamiento del lenguaje basado en Machine Learning.
+                                                <br><strong> Área de Interés: </strong>Machine Learning, Procesamiento del Lenguaje Natural y Minería de Datos.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/elvis.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/bra2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Elvis Rusnel Capia Quispe</h5>
+                            <p class="card-text text-center">Ex becario Google Canadá y Facebook London<br>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#elvis" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="elvis" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"><strong> Descripción: </strong>Ex becario de Ingeniería de Software en Google Canadá y Facebook London, e investigador en Machine Learning en Unicamp Brasil, con una sólida experiencia en algoritmos y estructuras de datos, ha sido entrenador de dos equipos clasificados para la final mundial del ICPC.
+                                                <br><strong> Área de Interés: </strong>Aprendizaje automático, visión por computadora, procesamiento de imágenes y gráficos por computadora.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- tercera fila -->
+            <div class="row">
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/ernesto.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/arg2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Ernesto Sánchez</h5>
+                            <p class="card-text text-center">Magister en Redes de Datos (UNLP)
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ernesto" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="ernesto" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"> <strong> Descripción:</strong> Es Magister en Redes de Datos y Especialista en Redes y Seguridad (UNLP). Docente en las materias Redes de Computadoras I y II de la carrera Lic. en Análisis de Sistemas de la UNSa. Es miembro de proyectos de investigación relacionados con la temática
+                                                <br><strong> Área de Interés: </strong>Redes de Datos y Seguridad
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/fernando.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/arg2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Fernando Rivera</h5>
+                            <p class="card-text text-center">Magister en Ingeniería de Software (UNLP)<br>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fernando" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="fernando" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"><strong> Descripción: </strong>Es Ingeniero en Sistemas de Información (UTN-BA), Profesor Universitario en Ingeniería en Sistemas (UCaSal) y ha realizado un Master en Administración de Empresas (IDEA) y un master en Ingeniería de Software (UNLP). Es docente de asignaturas de la Licenciatura en Análisis de Sistemas (DIUNSa) relacionadas con Sistemas Operativos, e Ingeniería y Desarrollo de Software. También es docente de asignaturas de la Ingeniería en Informática (UCaSal) relacionadas a Sistemas Operativos, Modelos y Simulación y Análisis de Datos. Dirige un proyecto de investigación relacionado con la simulación de procesos de desarrollo de software. Es Fundador y Director de North Valley Software. Y es creador de Industrial ERP y TrackingMed entre otros productos.
+                                                <br><strong> Área de Interés: </strong>Ingeniería de Software, ERP.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/gustavo.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/arg2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Gustavo Rivadera</h5>
+                            <p class="card-text text-center">Magister en Ingeniería de Software (ITBA)<br>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#gustavo" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="gustavo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"><strong> Descripción: </strong>Ingeniero en Computación (UNSe), Magister en Ingeniería del Software (ITBA), Magister en Informática (UNSTA) y Magister en Administración de Negocios (UCASal). Es Analista Senior en el Ministerio Público de la Provincia de Salta, docente de asignaturas de la Licenciatura en Análisis de Sistemas (DIUNSa) relacionadas a la Teoría de la Computación e Inteligencia Artificial. Participa en proyectos de investigación relacionados con Inteligencia Artificial y Text Mining.
+                                                <br><strong> Área de Interés: </strong>Inteligencia Artificial, Text Mining</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- cuarta fila -->
+            <div class="row">
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/ismael.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/arg2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Ismael Orozco</h5>
+                            <p id="fil-41" class="card-text text-center">Lic. Análisis de Sistemas
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ismael" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="ismael" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"> <strong> Descripción:</strong> Investigador Categoría V (Ingeniería) de acuerdo a la Secretaría de Políticas Universitarias SPU. Actualmente Doctorando en Ciencias de la Computación  Universidad de Buenos Aires. Argentina. Grupo de Investigación Procesamiento de Imágenes y Visión por Computadora. Entre sus áreas de interés se destacan el procesamiento de imágenes y redes neuronales profundas. Se desempeña como Jefe de Trabajos Prácticos en el Departamento de Informática. Universidad Nacional de Salta.
+                                                <br><strong> Área de Interés: </strong>Inteligencia Artificial.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/joel.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/per2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Joel Martin Visurraga Agüero</h5>
+                            <p id="fil-42" class="card-text text-center">Doctor en Ing. de Sistemas (UNFV Lima)<br>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#joel" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="joel" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"><strong> Descripción: </strong>Experto en Gobierno Digital; Transformación Digital; Firma y Certificación Digital; Inteligencia Artificial; Inteligencia de Negocios; Analítica predictiva; Implementador y Auditor Interno en las Normas ISO-9001, ISO-27001, ISO-37001, ISO-31000 y Certificación de Competencias de Personas.
+                                                <br><strong> Área de Interés: </strong>Inteligencia de Negocios, Analítica predictiva.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/kent.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/per2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Kent Emershon Yucra Quispe</h5>
+                            <p class="card-text text-center">Bachiller en Ciencias de la Ingeniería de Sistemas (UNA Puno)
+                                <br> Magíster en Ciencias de la computación (Universidad de Campinas - Brasil)<br>
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#kent" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="kent" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"><strong> Descripción: </strong>Desarrolle mi maestría en la Universidad de Campinas - Brasil en temas relacionados con la creación de nuevas heurísticas para el área de optimización combinatoria. Actualmente trabajo en el equipo de desarrollo mobile (Android and iOS) en Bloomberg L. P. - Londres, empresa que proporciona Software financiero.
+                                                <br><strong> Área de Interés: </strong> Ingeniería de Software, Ciencia computacional teórica, mobile engineering.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- quinta fila -->
+            <div class="row">
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/luis.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/per2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Luis Miguel Mamani Humpiri</h5>
+                            <p id="fil-51" class="card-text text-center">Ing. de Sistemas (UNA Puno)
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#luis" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="luis" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"> <strong> Descripción:</strong> Ingeniero de Sistemas, egresado de la UNA Puno. Actualmente viene laborando en RENIEC como especialista en desarrollo de software. Cuenta con experiencia en las áreas de biometría, procesamiento de imágenes, tarjetas inteligentes (personalización y post-personalización) y desarrollo de software. Sus áreas de interés son el procesamiento de imágenes, la identidad digital, la biometría y el DNI electrónico.
+                                                <br><strong> Área de Interés: </strong>Procesamiento de imágenes, Identidad digital, Biometría.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/rosa.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/bra2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Rosa Virginia Encinas Quille</h5>
+                            <p class="card-text text-center">Ing. de Sistemas (UNA Puno)
+                                <br> PhD student at University of São Paulo
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rosa" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="rosa" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"><strong> Descripción: </strong>Experto en Gobierno Digital; Transformación Digital; Firma y Certificación Digital; Inteligencia Artificial; Inteligencia de Negocios; Analítica predictiva; Implementador y Auditor Interno en las Normas ISO-9001, ISO-27001, ISO-37001, ISO-31000 y Certificación de Competencias de Personas.
+                                                <br><strong> Área de Interés: </strong>Inteligencia de Negocios, Analítica predictiva.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/sergio.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/arg2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Sergio Rocabado</h5>
+                            <p id="fil-53" class="card-text text-center">Dr. Ciencias Informáticas UNLP
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sergio" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="sergio" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"><strong> Descripción: </strong>Doctor en Ciencias Informáticas (UNLP) y Magister en Redes de Datos (UNLP). Es docente de la Licenciatura en Análisis de Sistemas (DIUNSa) e Investigador del Instituto de Investigaciones en Energía No Convencional (INENCO/CONICET). Dirige proyectos de investigación que abordan líneas relacionadas con la eficiencia energética en dispositivos móviles y el aprovechamiento de la energía solar para el despliegue de redes móviles en zonas rurales aisladas.
+                                                <br><strong> Área de Interés: </strong>  Eficiencia Energética, Energía No Convencional.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- sexta fila -->
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card w-100 card-border mb-5 ">
+                        <img src="./img ponentes/wilson.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/per2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Rudy Wilson Sanchez Guerra</h5>
+                            <p id="fil-61" class="card-text text-center">Ing. de Sistemas (UNA Puno)
+                                <br> MBA(c)
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#rudy" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="rudy" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"> <strong> Descripción:</strong> Líder experimentado en la Gestión de Tecnologías de la Información, Gestión del Riesgo Operacional, Seguridad de la Información (ISO 27001), Continuidad del Negocio (ISO 22301) y Sistemas de Gestión de Calidad (ISO 9001/21001), enfocado en la generación de valor sostenible para la organización través del liderazgo transformacional la sinergia efectiva del talento humano.
+                                                <br><strong> Área de Interés: </strong>Seguridad de la Información, Cyberseguridad, Gestión Integral de Riesgos.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img ponentes/yeison.jpg" class="card-img-top" alt="...">
+                        <img class="band" src="./band/per2.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Churquipa Yanqui Yeison Herbert</h5>
+                            <p class="card-text text-center">Ingeniero de Sistemas, egresado de la UNA Puno
+                                <div class="accordion accordion-flush" id="accordionFlushExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#yeison" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Descripción
+                                        </button>
+                                        </h2>
+                                        <div id="yeison" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body"><p class="lin"><strong> Descripción: </strong>Ingeniero de Sistemas, egresado de la UNA Puno, Especialista en SQL Server y Business Analytics. Cuenta con certificaciones en: Cloud Computing (EXIN), Scrum (SMC, SDC y SFC) y MTA (Microsoft). Ha laborado en NSPSAC, Caja los Andes, Ministerio de Educación, Superintendencia Nacional de Migraciones, ProInversion y actualmente viene laborando como Analista Programador de Sistemas JAVA en el Ministerio de Trabajo y Promoción del Empleo.
+                                                <br><strong> Área de Interés: </strong>  Business Analytics, IA y Diseño Gráfico.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+    
+    
+    <!-- footer -->
+    <div id="footer">
+        <div id="imgfinal">
+            <img src="./img/congreso2.png" alt="Logo COPAISI">
+        </div>
+    
+        <div id="facebook">
+            Sigue el fanpage del COPAISI en 
+            <a id="fab" href="https://www.facebook.com/COPAISI"><i class="fab fa-facebook-square"></i></i></i></a> 
+        </div>
+        <div id="text-footer">
+            Copyright © 2021 Universidad Nacional del Altiplano | All Rights Reserved
+        </div>
+    </div>
+    
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inscripciones</title>
+    <script src="https://kit.fontawesome.com/f8d3066f8c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f8d3066f8c.js" crossorigin="anonymous"></script>
+
+    <style>
+        #fondo
+        {
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+        }
+        .inv
+        {
+            width: 1px;
+        }
+        #footer
+        {
+            display: block;
+            background: linear-gradient(880deg,#29100A, white);
+            width: 100%;
+            text-align: center;
+        }
+        #text-footer
+        {
+            color: white;
+            font-family: cursive;
+        }
+        #facebook
+        {
+            font-size: 25px;
+            color: white;
+            text-shadow: 3px 1px 2px rgba(0, 0, 0, 1);
+        }
+        #fab 
+        {
+            color: #3b5998;
+            font-size: 30px;
+            line-height: 10px;
+        }
+        #fab i 
+        {
+            background-color: white;
+            font-size: 40px;
+            padding-right: 35px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 30px;
+            height: 32px;
+            text-align: center;
+            line-height: 10px;
+            border-radius: 10%;
+        }
+        #titulo
+        {
+            text-decoration: underline #27ADAD;
+            border: double 8px #27ADAD;
+            margin-bottom: 50px;
+            border-radius: 30px;
+        }
+        #tab
+        {
+            max-width: 85%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .vert
+        {
+            vertical-align: middle;
+        }
+        #active
+        {
+            background-color: #5DA8A8;
+        }
+        tr:hover td
+        {
+        background-color: white;
+        color: black;
+        }
+        .table-active:hover td
+        {
+            background-color: white;
+            color: black;
+        }
+        .container-md
+        {
+            border: double 6px black ;
+            border-radius: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        </style>
+</head>
+<body id="fondo" background="./9846.jpg">
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="logo.png" alt="COPAISI II LOGO" width="250" >
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="ejm3">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" aria-current="page" href="index.html"><span>Presentación</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="ponentes.html">Ponentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="cronograma.html">Cronograma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="actividades.html">Actividades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="inscripción.html">Inscripción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="programa.html">Programa</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </nav>
+    
+    <!-- titulo -->
+    <div class="container-sm p-5">
+        <div class="row pt-5">
+            <h3 id="titulo" class="text-center pb-5 pt-5 h1">Inscripciones</h3>
+        </div>
+    </div>
+    <hr class="inv">
+    <hr class="inv">
+    
+    <div class="container-md">
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Nombres</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Apellidos</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="input-group col-12">
+                <label class="input-group-text" for="inputGroupSelect01">Tipo de Documento</label>
+                <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Escoja una opción...</option>
+                    <option value="1">DNI</option>
+                    <option value="2">Libreta Militar</option>
+                    <option value="3">Carné de Extranjería</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <input type="text" class="form-control" id="inputAddress2" placeholder="DNI, Libreta Militar, o Carné de Extranjería">
+            </div>
+            <div class="col-12">
+                <label for="exampleFormControlInput1" class="form-label">Dirección de e-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">País</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                    Al enviar estos datos acepto la <strong> <a href="" class="link-success">Política de privacidad</a></strong>
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+        </form>
+    </div>
+    <hr class="inv">
+    <hr class="inv">
+    
+    <!-- footer -->
+    <div id="footer">
+        <div id="imgfinal">
+            <img src="./img/congreso2.png" alt="Logo COPAISI">
+        </div>
+    
+        <div id="facebook">
+            Sigue el fanpage del COPAISI en 
+            <a id="fab" href="https://www.facebook.com/COPAISI"><i class="fab fa-facebook-square"></i></i></i></a> 
+        </div>
+        <div id="text-footer">
+            Copyright © 2021 Universidad Nacional del Altiplano | All Rights Reserved
+        </div>
+    </div>
+    
+    <!-- Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+</body>

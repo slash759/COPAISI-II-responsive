@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Programa</title>
+    <script src="https://kit.fontawesome.com/f8d3066f8c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f8d3066f8c.js" crossorigin="anonymous"></script>
+
+    <style>
+        #fondo
+        {
+            background: rgb(255,255,255);
+            background: linear-gradient(138deg, rgba(255,255,255,1) 0%, rgba(185,169,169,1) 100%);  
+        }
+        .inv
+        {
+            width: 1px;
+        }
+        #footer
+        {
+            display: block;
+            background: linear-gradient(880deg,#29100A, white);
+            width: 100%;
+            text-align: center;
+        }
+        #text-footer
+        {
+            color: white;
+            font-family: cursive;
+        }
+        #facebook
+        {
+            font-size: 25px;
+            color: white;
+            text-shadow: 3px 1px 2px rgba(0, 0, 0, 1);
+        }
+        #fab 
+        {
+            color: #3b5998;
+            font-size: 30px;
+            line-height: 10px;
+        }
+        #fab i 
+        {
+            background-color: white;
+            font-size: 40px;
+            padding-right: 35px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 30px;
+            height: 32px;
+            text-align: center;
+            line-height: 10px;
+            border-radius: 10%;
+        }
+        #titulo
+        {
+            text-decoration: underline #27ADAD;
+            border: double 8px #27ADAD;
+            margin-bottom: 50px;
+            border-radius: 30px;
+        }
+        #tab
+        {
+            max-width: 85%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .vert
+        {
+            vertical-align: middle;
+        }
+        #active
+        {
+            background-color: #5DA8A8;
+        }
+        tr:hover td
+        {
+        background-color: white;
+        color: black;
+        }
+        .table-active:hover td
+        {
+            background-color: white;
+            color: black;
+        }
+        </style>
+</head>
+<body id="fondo">
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <img src="logo.png" alt="COPAISI II LOGO" width="250" >
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="ejm3">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" aria-current="page" href="index.html"><span>Presentación</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="ponentes.html">Ponentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="cronograma.html">Cronograma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="actividades.html">Actividades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="inscripción.html">Inscripción</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="programa.html">Programa</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </nav>
+    
+    <!-- Título -->
+    <div class="container-sm p-5">
+        <div class="row pt-5">
+            <h3 id="titulo" class="text-center pb-5 pt-5 h1">Programa General</h3>
+        </div>
+    </div>
+    
+    <!-- Programa -->
+    <!-- lunes -->
+    <table id="tab" class="table table-bordered border-light table-info align-middle table-hover table-striped">
+        <thead>
+            
+            <th class="vert bg-primary text-white" colspan="4">
+                Lunes, 07 de Diciembre
+            </th>
+        </thead>
+        <thead>
+            <th class="vert bg-primary text-white">
+                Hora
+            </th>
+            <th class="vert bg-primary text-white">
+                Sala
+            </th>
+            <th class="vert bg-primary text-white">
+                Actividad
+            </th>
+            <th class="vert bg-primary text-white">
+                Responsable
+            </th>
+        </thead>
+        <tr>
+            <td>3:30 pm - 4:00 pm</td>
+            <td>Sala UNSa 1</td>
+            <td>Inscripción plataforma / Inauguración
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité de Inauguración y Clausura</td>
+        </tr>
+        <tr>
+            <td>4:00 pm - 5:00 pm</td>
+            <td>Sala UNSa 1</td>
+            <td>"Aprendizaje Profundo para la Clasificación de Videos"
+                <br><strong> Ponente: </strong>Ismael Orozco.
+                <br> Universidad Nacional de Salta - Argentina
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité UNSa</td>
+        </tr>
+        <tr>
+            <td>5:00 pm - 5:30 pm</td>
+            <td>Sala UNSa 1</td>
+            <td>"La administración de proyectos por medio de Simulación"
+                <br><strong> Ponente: </strong>Fernando Rivera
+                <br> Universidad Nacional de Salta - Argentina
+                
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité UNSa</td>
+        </tr>
+        <tr>
+            <td>5:30 pm - 7:00 pm</td>
+            <td>Sala UNSa 1</td>
+            <td>Curso - Taller "Introducción al Lenguaje R"
+                <br><strong> Ponente: </strong>Claudia Ibarra
+                <br> Universidad Nacional de Salta - Argentina
+                
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité UNSa</td>
+        </tr>
+    </table>
+    <hr class="inv">
+    <hr class="inv">
+    
+    <!-- martes -->
+    <table id="tab" class="table table-bordered border-light table-info align-middle table-hover table-striped">
+        <thead>
+            
+            <th class="vert bg-primary text-white" colspan="4">
+                Martes, 08 de Diciembre
+            </th>
+        </thead>
+        <thead>
+            <th class="vert bg-primary text-white">
+                Hora
+            </th>
+            <th class="vert bg-primary text-white">
+                Sala
+            </th>
+            <th class="vert bg-primary text-white">
+                Actividad
+            </th>
+            <th class="vert bg-primary text-white">
+                Responsable
+            </th>
+        </thead>
+        <tr>
+            <td>3:00 pm - 3:30 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>"Aplicación de Modelado basado en agentes en la economía"
+                <br><strong> Ponente: </strong>Gustavo Rivadera
+                Universidad Nacional de Salta - Argentina
+                
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité UNSa</td>
+        </tr>
+        <tr>
+            <td>3:30 pm - 4:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>"Aprendizaje Automático para transcripción de textos históricos mediante modelamiento del lenguaje"
+                <br><strong> Ponente: </strong>Eduardo Xamena
+                <br> Universidad Nacional de Salta - Argentina
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité UNSa</td>
+        </tr>
+        <tr>
+            <td>4:00 pm - 4:30 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>"Optimización del consumo energético en dispositivos móviles para su uso en zonas rurales aisladas abastecidas con energía solar fotovoltaica"
+                <br><strong> Ponente: </strong>Sergio Rocabado
+                <br> Universidad Nacional de Salta - Argentina
+                
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité UNSa</td>
+        </tr>
+        <tr>
+            <td>4:30 pm - 5:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>"Evidencia Digital, Métodos de Investigación"
+                <br><strong> Ponente: </strong>Celeste Morales
+                <br> Universidad Nacional de Salta - Argentina
+                
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité UNSa</td>
+        </tr>
+        <tr>
+            <td>5:00 pm - 7:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>Curso - Taller: "Emulación de Redes con GNS3"
+                <br><strong> Ponente: </strong>Ernesto Sanchez
+                <br> Universidad Nacional de Salta - Argentina
+                
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité UNSa</td>
+        </tr>
+    </table>
+    <hr class="inv">
+    <hr class="inv">
+    
+    <!-- miercoles -->
+    <table id="tab" class="table table-bordered border-light table-info align-middle table-hover table-striped">
+        <thead>
+            
+            <th class="vert bg-primary text-white" colspan="4">
+                Miércoles, 09 de Diciembre
+            </th>
+        </thead>
+        <thead>
+            <th class="vert bg-primary text-white">
+                Hora
+            </th>
+            <th class="vert bg-primary text-white">
+                Sala
+            </th>
+            <th class="vert bg-primary text-white">
+                Actividad
+            </th>
+            <th class="vert bg-primary text-white">
+                Responsable
+            </th>
+        </thead>
+        <tr>
+            <td>3:00 pm - 4:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>"El DNI Electrónico V2 y sus Aplicaciones"
+                <br><strong> Ponente: </strong>Luis Miguel Mamani Humpiri.
+                Universidad Nacional del Altiplano - Puno
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Académico</td>
+        </tr>
+        <tr>
+            <td>4:00 pm - 5:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>"Arquitecturas de Redes Neuronales Convolucionales para Visión Computacional"
+                <br><strong> Ponente: </strong>Alain Alejo Huarachi.
+                <br> Estudiante de Posgrado - Pontificia Universidad Católica del Perú
+
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Académico</td>
+        </tr>
+        <tr>
+            <td>5:00 pm - 6:00 pm</td>
+            <td>Sala UNSa 1</td>
+            <td>"QUIPU: Quechua Knowledge Graph"
+                <br><strong> Ponente: </strong>Elwin Luis Huaman Quispe
+                <br> Universidad Nacional del Altiplano - Puno - Perú
+                
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Científico</td>
+        </tr>
+        <tr>
+            <td>6:00 pm - 7:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>Curso -Taller: "Digitalización del Sector Alpaquero"
+                <br><strong> Ponente: </strong>Yimy Parhuayo Huaynillo
+                <br> Universidad Nacional del Altiplano - Puno - Perú
+                
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Académico</td>
+        </tr>
+        <tr>
+            <td>6:00 pm - 7:00 pm</td>
+            <td>Sala UNA 2 (Webex)</td>
+            <td>Curso -Taller: "DETECCIÓN DE AVALANCHAS EN SECUENCIAS DE VÍDEO MEDIANTE INTELIGENCIA ARTIFICIAL"
+                <br><strong> Ponente: </strong>Milwart Calizaya Bobadilla - Master Student
+                <br>Tesista en INAIGEM
+                
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>5:00 pm - 7:00 pm</td>
+            <td>Sala UNSa 2	</td>
+            <td>Curso - Taller: "Programación en Python"
+                <br><strong> Ponente: </strong>Cristian Martinez - Diego Rodriguez
+                <br>Universidad Nacional de Salta - Argentina
+                
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité UNSa</td>
+        </tr>
+    </table>
+    <hr class="inv">
+    <hr class="inv">
+    
+    <!-- jueves -->
+    <table id="tab" class="table table-bordered border-light table-info align-middle table-hover table-striped">
+        <thead>
+            
+            <th class="vert bg-primary text-white" colspan="4">
+                Jueves, 10 de Diciembre
+            </th>
+        </thead>
+        <thead>
+            <th class="vert bg-primary text-white">
+                Hora
+            </th>
+            <th class="vert bg-primary text-white">
+                Sala
+            </th>
+            <th class="vert bg-primary text-white">
+                Actividad
+            </th>
+            <th class="vert bg-primary text-white">
+                Responsable
+            </th>
+        </thead>
+        <tr>
+            <td>3:00 pm - 4:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>"Ciencia de datos y Big Data aplicada a mediciones ambientales en el contexto de ciudades inteligentes y sostenibles"
+                <br><strong> Ponente: </strong>Rosa Virginia Encinas Quille
+                <br>Universidad de São Paulo - Brasil
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Académico</td>
+        </tr>
+        <tr>
+            <td>4:00 pm - 5:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>"Inteligencia Artificial y la analítica de datos, aplicaciones y usos"
+                <br><strong> Ponente: </strong>Joel Visurraga Agüero.
+                <br>Universidad Norbert Wiener - Perú
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Académico</td>
+        </tr>
+        <tr>
+            <td>5:00 pm - 6:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>"Herramientas y Entornos de Ingeniería de Software"
+                <br><strong> Ponente: </strong>Edgar Sarmiento Calisaya
+                <br>Universidad Nacional del Altiplano - Puno
+                
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Científico</td>
+        </tr>
+        <tr>
+            <td>6:00 pm - 7:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>Curso -Taller: "Taller en Natural Language Processing"
+                <br><strong> Ponente: </strong>Gerson Waldyr Vizcarra Aguilar
+                <br>Universidad Católica San Pablo - Arequipa - Perú
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Académico</td>
+        </tr>
+        <tr>
+            <td>5:00 pm - 7:00 pm</td>
+            <td>Sala UNSa 2</td>
+            <td>Curso - Taller: "Programación en Python"
+                <br><strong> Ponentes: </strong>Cristian Martinez - Diego Rodriguez
+                <br>Universidad Nacional de Salta - Argentina
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité UNSa</td>
+        </tr>
+    </table>
+    <hr class="inv">
+    <hr class="inv">
+    
+    <!-- Viernes -->
+    <table id="tab" class="table table-bordered border-light table-info align-middle table-hover table-striped">
+        <thead>
+            
+            <th class="vert bg-primary text-white" colspan="4">
+                Viernes, 11 de Diciembre
+            </th>
+        </thead>
+        <thead>
+            <th class="vert bg-primary text-white">
+                Hora
+            </th>
+            <th class="vert bg-primary text-white">
+                Sala
+            </th>
+            <th class="vert bg-primary text-white">
+                Actividad
+            </th>
+            <th class="vert bg-primary text-white">
+                Responsable
+            </th>
+        </thead>
+        <tr>
+            <td>3:00 pm - 4:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>"Inteligencia Artificial en la medicina"
+                <br><strong> Ponente: </strong>Elvis R. Capia Quispe
+                Universidad Estatal de Campinas - Brasil
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Académico
+            </td>
+        </tr>
+        <tr>
+            <td>4:00 pm - 5:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>"Liderazgo adaptativo para la gestión de proyectos de TI"
+                <br><strong> Ponente: </strong>Rudy Wilson Sanchez Guerra.
+                <br> Universidad Nacional del Altiplano - Puno - Perú
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Académico</td>
+        </tr>
+        <tr>
+            <td>5:00 pm - 6:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td><strong> "FERIA VIRTUAL Juego en python: "O_3Defender" </strong>
+
+                <br>Estudiante: Edgar Ávila Agramonte
+                <br>Semestre I - Universidad Nacional del Altiplano - Puno
+                <br>
+                <strong> "Reconocimiento de Señas con Tensorflowjs"</strong>
+
+                <br>Estudiante: José Antonio Cuentas Alvarado
+                <br>Semestre IX - Universidad Nacional del Altiplano - Puno
+                <br>
+                <strong> "SCRUM Ajustado como Metodología Ágil en el Desarrollo de Trabajos Colaborativos"</strong>
+
+                <br>Estudiante: Roy Elvis Arapa Churquipa
+                <br>Semestre VII - Universidad Nacional del Altiplano - Puno
+                <br>
+                <strong> "Sistemas de Reconocimiento Facial, como Herramienta para la Búsqueda de Criminales en Puntos Estratégicos"</strong>
+
+                <br>Estudiante: David Hermenegildo Mamani Diaz
+                <br>Semestre VII - Universidad Nacional del Altiplano - Puno
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Académico</td>
+        </tr>
+        <tr>
+            <td>6:00 pm - 7:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>Curso -Taller: "Taller en Clasificación de hojas de plantas"
+                <br><strong> Ponente: </strong>Danitza Yvette Bermejo Escobar
+                <br>Universidad Nacional del Altiplano - Puno - Perú
+                
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Académico</td>
+        </tr>
+        <tr>
+            <td>6:00 pm - 7:00 pm</td>
+            <td>Sala UNSa 2</td>
+            <td>Curso - Taller: "Programación en Python"
+                <br><strong> Ponente: </strong>Cristian Martinez - Diego Rodriguez
+                <br>Universidad Nacional de Salta - Argentina
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité UNSa</td>
+        </tr>
+    </table>
+    <hr class="inv">
+    <hr class="inv">
+    
+    <!-- Sábado -->
+    <table id="tab" class="table table-bordered border-light table-info align-middle table-hover table-striped">
+        <thead>
+            
+            <th class="vert bg-primary text-white" colspan="4">
+                Sábado, 12 de Diciembre
+            </th>
+        </thead>
+        <thead>
+            <th class="vert bg-primary text-white">
+                Hora
+            </th>
+            <th class="vert bg-primary text-white">
+                Sala
+            </th>
+            <th class="vert bg-primary text-white">
+                Actividad
+            </th>
+            <th class="vert bg-primary text-white">
+                Responsable
+            </th>
+        </thead>
+        <tr>
+            <td>9:00 am - 10:00 am</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>"Patrones de diseño de Software"
+                <br><strong> Ponente: </strong>Kent Emershon Yucra Quispe
+                <br>Magister en Ciencias de la Computación
+                <br>Universidad de Campinas - Brasil
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Académico</td>
+        </tr>
+        <tr>
+            <td>10:00 am - 11:00 am</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td>"Caso de exito en Gobierno Electrónico" - CERTIJOVEN
+                <br><strong> Ponente: </strong>Yeison Herbert Churquipa Yanqui.
+                <br>Ingeniero de Sistemas
+                <br>Universidad Nacional del Altiplano - Puno - Perú
+                <br>
+                <strong> Enlace: </strong><button type="button" class="btn btn-warning btn-sm">Link</button></td>
+            <td>Comité Académico</td>
+        </tr>
+        <tr>
+            <td>9:00 am - 12:00 pm</td>
+            <td>Sala UNSa 1</td>
+            <td><strong>Concurso de Programación</strong></td>
+            <td>Comité de Concursos Estudiantiles
+            </td>
+        </tr>
+        <tr>
+            <td>9:00 am - 12:00 pm</td>
+            <td>Sala UNSa 3</td>
+            <td><strong> PRESENTACIÓN DE TRABAJOS ESTUDIANTILES UNSa</strong>
+                <br>09:00 am- Alanís Magne, Franco Nicolás Morales Juárez, José Nicolás: "App Comprá en tu barrio - Data Entry
+                <br>09:30 am-Maximiliano Andrada, Rodrigo Lautaro Sulca Ríos, Alejandro Oscar Gonzáles: "Problema de Enrutamiento de vehículos con capacidad
+                <br>10:00 am-Cristian Solano, Romina Véliz: "App Denuncias Viales
+                <br>10:30 am - Franco Gallego, Jacobo Juárez: "Algoritmo genético para Bin-Packing 3D-Heterogéneo
+                <br>11:00 am-Camila Cisneros,Luis Parada: "App Salta Segura</td>
+            <td>Comité UNSa</td>
+        </tr>
+        <tr>
+            <td>12:00 pm - 1:00 pm</td>
+            <td>Sala UNA 1 (Zoom)</td>
+            <td><strong>Clausura</strong></td>
+            <td>Comité de Inauguración y Clausura
+            </td>
+        </tr>
+    </table>
+    <hr class="inv">
+    <hr class="inv">
+    
+    <!-- footer -->
+    <div id="footer">
+        <div id="imgfinal">
+            <img src="./img/congreso2.png" alt="Logo COPAISI">
+        </div>
+    
+        <div id="facebook">
+            Sigue el fanpage del COPAISI en 
+            <a id="fab" href="https://www.facebook.com/COPAISI"><i class="fab fa-facebook-square"></i></i></i></a> 
+        </div>
+        <div id="text-footer">
+            Copyright © 2021 Universidad Nacional del Altiplano | All Rights Reserved
+        </div>
+    </div>
+    
+    <!-- Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+</body>
